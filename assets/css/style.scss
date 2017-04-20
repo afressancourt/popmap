@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    background-position: center center;
+    background-image: url("../images/popmap.jpg");
+    left: 0;
+    right: 0;
+    background-color: #fff;
+}
