@@ -9,7 +9,7 @@ In order to evaluate the path diversity gain offered by the Kumori architecture,
 - CAIDA publishes an **AS-level** Internet topology. This topology is very interesting as it tags inter-AS relationships with the type of relationship linking the ASes, which allows researchers to determine which are the routable paths in the topology according to a given routing policy such as Gao Rexford's.
 - In the DIMES project, Yuval Shavitt and Dima Feldman have proposed a **PoP-level** topology representing the Internet. While the publications made by the authors are very interesting to understand the way they built their PoP-level Internet topology, the data that are now available from the DIMES website are from 2012, and thus don't represent the Internet as it is today. 
 
-With PoPmap, ou rgoal is to provide the tools to generate up-to-date, PoP-level Internet topologies from available data sources.
+With PoPmap, our goal is to provide the tools to generate up-to-date, PoP-level Internet topologies from available data sources.
 
 
 ### Markdown
