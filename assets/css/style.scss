@@ -4,8 +4,9 @@
 @import "{{ site.theme }}";
 
 .page-header {
-    background-position: right;
+    background-position: right center;
     background-image: url("../images/popmap.png");
+    background-repeat: no-repeat;
     left: 0;
     right: 0;
     background-color: #fff;
