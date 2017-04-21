@@ -1,4 +1,6 @@
-## What is PoPmap?
+## PoPmap: a PoP-level Internet toplogy
+
+### What is PoPmap?
 
 In the course of my PhD work, I worked on an overlay network architecture, Kumori. This architecture aims at improving the resiliency of inter-datacenter connections over the Internet by enhancing the available path diversity between those datacenters.
 
