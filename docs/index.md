@@ -1,4 +1,4 @@
-## PoPmap: a PoP-level Internet toplogy
+## PoPmap: a PoP-level Internet topology
 
 ### What is PoPmap?
 
