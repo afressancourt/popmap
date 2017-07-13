@@ -146,10 +146,10 @@ def find_all_gaorexford_iter(graph,
     return node_paths
 
 
-def find_all_gaorexford_dragon_iter(graph,
-                                    source,
-                                    destination,
-                                    limit=0):
+def find_all_gaorexford_caida_iter(graph,
+                                   source,
+                                   destination,
+                                   limit=0):
     # Find paths from node index "source" to "destination" in graph "graph"
     node_paths = []
 
@@ -194,7 +194,7 @@ def find_all_gaorexford_dragon_iter(graph,
             edge = gget_eid(node, child)
             edge_relationship = ges[edge]["relationship"]
 
-            # Change to exclude non-DRAGON paths
+            # Change to exclude non-CAIDA paths
             if edge_relationship > 3:
                 continue
 
