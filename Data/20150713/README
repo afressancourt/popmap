@@ -1,0 +1,22 @@
+file structures:
+
+* inter_pop_links.txt
+cluster1 AS1 cluster2 AS2 latency
+
+* ip_to_pop_mapping_with_latlons.txt
+IP address PoP-number latitude longitude
+
+* ip_to_pop_mapping.txt
+IP address PoP-number
+
+* mgmtPublicsIPs.csv
+id;public_id;type;address
+
+* mgmtPublics.csv
+id;ipaddr
+
+* peerParticipants.csv
+id;asn;info_traffic;info_ratio;info_scope;info_type;policy_general;policy_nopublic;policy_noprivate
+
+* peerParticipantsPublics.csv
+id;participant_id;public_id;local_asn;local_ipaddr
