@@ -7,13 +7,12 @@ import pickle
 
 ##### New data #####
 
-# Dictionnary containing the AS that are present in the Dragon topology
+# Dictionnary containing the AS that are present in the currated CAIDA topology
 # Key: AS number
 # Value: AS number
-dragon_ases = {}
+caida_ases = {}
 
-# dragon_dir = "../Data/Dragon-topology/test-1/"
-dragon_dir = "../Data/Dragon-topology/"
+caida_dir = "../Data/curated-caida-topology/"
 
 pickle_dir = "pickle/confirmed/"
 # pickle_dir = "pickle/"
@@ -24,7 +23,7 @@ print "\n=== Graph-AS-Directed-Build ===\n"
 
 print "Step 1: parsing topology.201309.txt..."
 
-topology_path = dragon_dir + "topology.201309.txt"
+topology_path = caida_dir + "topology.201309.txt"
 topology_path = os.path.relpath(topology_path)
 
 with open(topology_path, 'rb') as txt:
@@ -41,18 +40,18 @@ with open(topology_path, 'rb') as txt:
         edge_source = directed_graph_elements[0]
         edge_destination = directed_graph_elements[1]
 
-        if not edge_source in dragon_ases:
-            dragon_ases[edge_source] = edge_source
-        if not edge_destination in dragon_ases:
-            dragon_ases[edge_destination] = edge_destination
+        if not edge_source in caida_ases:
+            caida_ases[edge_source] = edge_source
+        if not edge_destination in caida_ases:
+            caida_ases[edge_destination] = edge_destination
 
 ######################################################################## STEP 2
 
-print "Step 2: write dragon_ases.pickle..."
+print "Step 2: write caida_ases.pickle..."
 
-dragon_ases_path = os.path.relpath(pickle_dir + "dragon_ases.pickle")
+caida_ases_path = os.path.relpath(pickle_dir + "caida_ases.pickle")
 
-with open(dragon_ases_path, 'wb') as handle:
-    pickle.dump(dragon_ases, handle)
+with open(caida_ases_path, 'wb') as handle:
+    pickle.dump(caida_ases, handle)
 
 print "Step 3 DONE"

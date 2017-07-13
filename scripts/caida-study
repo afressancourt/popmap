@@ -1,0 +1,13 @@
+# Script to work on the currated CAIDA topology
+
+python ./caida_study/Caida-AS-Build.py
+python ./caida_study/Graph-AS-Directed-Build-method2.py
+python ./caida_study/clean-Graph-Directed-AS.py
+python ./caida_study/iPlane-Graph-Build.py
+python ./caida_study/iPlane-Graph-Draw.py
+# Shouldn't be executed too much because clustering is not deterministic
+# python ./caida_study/csp-AS-clusters.py
+python ./caida_study/clusters-Graph-Build.py
+python ./caida_study/clusters-Graph-Draw.py
+python ./caida_study/cspclusters-AS-Graph-Build.py
+python ./caida_study/cspclusters-AS-Graph-Draw.py

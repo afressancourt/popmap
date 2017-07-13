@@ -18,8 +18,7 @@ nodes = {}
 # [0:source=source, 1:target=target, 2: type=type]
 edges = {}
 
-# dragon_dir = "../Data/Dragon-topology/test-1/"
-dragon_dir = "../Data/Dragon-topology/"
+caida_dir = "../Data/curated-caida-topology/"
 
 pickle_dir = "pickle/confirmed/"
 # pickle_dir = "pickle/"
@@ -30,7 +29,7 @@ print "\n=== Graph-AS-Directed-Build ===\n"
 
 print "Step 1: parsing topology.201309.txt..."
 
-topology_path = dragon_dir + "topology.201309.txt"
+topology_path = caida_dir + "topology.201309.txt"
 topology_path = os.path.relpath(topology_path)
 
 with open(topology_path, 'rb') as txt:
@@ -110,9 +109,9 @@ print "Step 3 DONE"
 
 ######################################################################## STEP 4
 
-print "Step 4: save edges in dragon_edges.pickle..."
+print "Step 4: save edges in caida_edges.pickle..."
 
-edges_path = os.path.relpath(pickle_dir + "dragon_edges.pickle")
+edges_path = os.path.relpath(pickle_dir + "caida_edges.pickle")
 
 with open(edges_path, 'wb') as handle2:
     pickle.dump(edges, handle2)

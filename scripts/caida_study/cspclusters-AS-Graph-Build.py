@@ -9,7 +9,7 @@ csp_path = '../Data/CSP_AS-complementary.txt'
 # pickle_dir = "pickle/"
 pickle_dir = "pickle/confirmed/"
 
-dragon_edges = {}
+caida_edges = {}
 
 ##### New data #####
 
@@ -93,15 +93,15 @@ with open(as_pops_path, 'rb') as handle3:
 
 print "Length of as_pops: " + str(len(as_pops))
 
-print "Loading dragon_edges dictionnary..."
+print "Loading caida_edges dictionnary..."
 
-dragon_edges_path = pickle_dir + "dragon_edges.pickle"
-dragon_edges_path = os.path.relpath(dragon_edges_path)
+caida_edges_path = pickle_dir + "caida_edges.pickle"
+caida_edges_path = os.path.relpath(caida_edges_path)
 
-with open(dragon_edges_path, 'rb') as handle:
-    dragon_edges = pickle.load(handle)
+with open(caida_edges_path, 'rb') as handle:
+    caida_edges = pickle.load(handle)
 
-print "Length of dragon_edges: " + str(len(dragon_edges))
+print "Length of caida_edges: " + str(len(caida_edges))
 
 ######################################################################## STEP 2
 
@@ -226,13 +226,13 @@ def analyzeLine(line):
                 first_edge[2] += latency
                 first_edge[3] += 1
             if asn_1 != asn_2:
-                dragon_edge_name = asn_1 + "-" + asn_2
+                caida_edge_name = asn_1 + "-" + asn_2
                 # See if this raises an issue
-                if not dragon_edge_name in dragon_edges:
+                if not caida_edge_name in caida_edges:
                     first_edge[4] = 5
                 else:
-                    dragon_edge = dragon_edges[dragon_edge_name]
-                    first_edge_relationship = dragon_edge[2]
+                    caida_edge = caida_edges[caida_edge_name]
+                    first_edge_relationship = caida_edge[2]
                     first_edge[4] = int(first_edge_relationship)
 
             # The second one...
@@ -249,13 +249,13 @@ def analyzeLine(line):
                 second_edge[2] += latency
                 second_edge[3] += 1
             if asn_1 != asn_2:
-                dragon_edge_name = asn_2 + "-" + asn_1
+                caida_edge_name = asn_2 + "-" + asn_1
                 # See if this raises an issue
-                if not dragon_edge_name in dragon_edges:
+                if not caida_edge_name in caida_edges:
                     second_edge[4] = 5
                 else:
-                    dragon_edge = dragon_edges[dragon_edge_name]
-                    second_edge_relationship = dragon_edge[2]
+                    caida_edge = caida_edges[caida_edge_name]
+                    second_edge_relationship = caida_edge[2]
                     second_edge[4] = int(second_edge_relationship)
     return
 

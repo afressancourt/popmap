@@ -21,7 +21,7 @@ provider_asns_path = os.path.relpath(provider_asns_path)
 with open(provider_asns_path, 'rb') as handle:
     provider_asns = pickle.load(handle)
 
-print "Length of dragon_edges: " + str(len(provider_asns))
+print "Length of provider_asns: " + str(len(provider_asns))
 
 ######################################################################## STEP 2
 

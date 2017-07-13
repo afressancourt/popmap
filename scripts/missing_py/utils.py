@@ -78,7 +78,7 @@ def edge_name(first_string, second_string):
 # 1: provider => customer
 # 2: peer => peer
 # 3: customer => provider
-# 5: node => node, edge absent from Dragon dataset
+# 5: node => node, edge absent from currated CAIDA dataset
 
 
 def as_dfs_gao_rexford(graph,
@@ -114,7 +114,7 @@ def full_as_dfs_gao_rexford(graph):
 # 1: provider => customer
 # 2: peer => peer
 # 3: customer => provider
-# 5: node => node, edge absent from Dragon dataset
+# 5: node => node, edge absent from currated CAIDA dataset
 
 
 def pop_dfs_gao_rexford(pop_graph,

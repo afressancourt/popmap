@@ -25,10 +25,10 @@ interesting_ases = {}
 # Value: AS number
 csp_ases = {}
 
-# Dictionnary containing the AS that are present in the Dragon topology
+# Dictionnary containing the AS that are present in the currated CAIDA topology
 # Key: AS number
 # Value: AS number
-dragon_ases = {}
+caida_ases = {}
 
 as_graph = Graph()
 
@@ -64,15 +64,15 @@ with open(ixp_confirmed_ases_path, 'rb') as handle2:
 
 print "Length of ixp_confirmed_ases: " + str(len(ixp_confirmed_ases))
 
-print "Loading dragon_ases dictionnary..."
+print "Loading caida_ases dictionnary..."
 
-dragon_ases_path = pickle_dir + "dragon_ases.pickle"
-dragon_ases_path = os.path.relpath(dragon_ases_path)
+caida_ases_path = pickle_dir + "caida_ases.pickle"
+caida_ases_path = os.path.relpath(caida_ases_path)
 
-with open(dragon_ases_path, 'rb') as handle3:
-    dragon_ases = pickle.load(handle3)
+with open(caida_ases_path, 'rb') as handle3:
+    caida_ases = pickle.load(handle3)
 
-print "Length of dragon_ases: " + str(len(dragon_ases))
+print "Length of caida_ases: " + str(len(caida_ases))
 
 print "Step 1 DONE"
 
@@ -90,7 +90,7 @@ with open(csp_path, 'rb') as txt:
             break
         csp_element = line.split(";")
         asn = csp_element[0]
-        if (asn in dragon_ases) and (not asn in csp_ases):
+        if (asn in caida_ases) and (not asn in csp_ases):
             csp_ases[asn] = asn
 
 print "Number of CSP ASes: " + str(len(csp_ases))
@@ -111,7 +111,7 @@ print "Step 2_2: Adding the ASes at IXPs to the interesting_ases dict..."
 for ixp in ixp_confirmed_ases:
     confirmed_ases = ixp_confirmed_ases[ixp]
     for asn in confirmed_ases:
-        if (asn in dragon_ases) and (not asn in interesting_ases):
+        if (asn in caida_ases) and (not asn in interesting_ases):
             interesting_ases[asn] = asn
 
 print "Number of ASes in interesting_ases: " + str(len(interesting_ases))

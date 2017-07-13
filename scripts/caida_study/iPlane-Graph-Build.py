@@ -5,10 +5,10 @@ import pickle
 # Build the graph structure that will be used to build the graph from the
 # iPlane dataset
 
-# Dictionnary containing the AS that are present in the Dragon topology
+# Dictionnary containing the AS that are present in the currated CAIDA topology
 # Key: AS number
 # Value: AS number
-dragon_ases = {}
+caida_ases = {}
 
 # Dictionnary containing the interesting ASes for which PoPs need to be
 # included
@@ -16,11 +16,11 @@ dragon_ases = {}
 # Value: AS number
 interesting_ases = {}
 
-# Dictionnary containing the edges of the Dragon Topology
+# Dictionnary containing the edges of the currated CAIDA Topology
 # Key: Edge name
 # Value: Edge vector
 # [0:source=source, 1:target=target, 2: type=type]
-dragon_edges = {}
+caida_edges = {}
 
 ##### New data #####
 
@@ -50,15 +50,15 @@ print "\n=== iPlane-Graph-Build ===\n"
 
 print "Step 1: loading data..."
 
-print "Loading dragon_ases dictionnary..."
+print "Loading caida_ases dictionnary..."
 
-dragon_ases_path = pickle_dir + "dragon_ases.pickle"
-dragon_ases_path = os.path.relpath(dragon_ases_path)
+caida_ases_path = pickle_dir + "caida_ases.pickle"
+caida_ases_path = os.path.relpath(caida_ases_path)
 
-with open(dragon_ases_path, 'rb') as handle:
-    dragon_ases = pickle.load(handle)
+with open(caida_ases_path, 'rb') as handle:
+    caida_ases = pickle.load(handle)
 
-print "Length of dragon_ases: " + str(len(dragon_ases))
+print "Length of caida_ases: " + str(len(caida_ases))
 
 print "Loading interesting_ases dictionnary..."
 
@@ -70,15 +70,15 @@ with open(interesting_ases_path, 'rb') as handle6:
 
 print "Length of interesting_ases: " + str(len(interesting_ases))
 
-print "Loading dragon_edges dictionnary..."
+print "Loading caida_edges dictionnary..."
 
-dragon_edges_path = pickle_dir + "dragon_edges.pickle"
-dragon_edges_path = os.path.relpath(dragon_edges_path)
+caida_edges_path = pickle_dir + "caida_edges.pickle"
+caida_edges_path = os.path.relpath(caida_edges_path)
 
-with open(dragon_edges_path, 'rb') as handle2:
-    dragon_edges = pickle.load(handle2)
+with open(caida_edges_path, 'rb') as handle2:
+    caida_edges = pickle.load(handle2)
 
-print "Length of dragon_edges: " + str(len(dragon_edges))
+print "Length of caida_edges: " + str(len(caida_edges))
 
 print "Loading pop_as dictionnary..."
 
@@ -193,13 +193,13 @@ for dirname, dirnames, filenames in os.walk(dir_path):
                                 first_edge[2] += latency
                                 first_edge[3] += 1
                             if asn_1 != asn_2:
-                                dragon_edge_name = asn_1 + "-" + asn_2
+                                caida_edge_name = asn_1 + "-" + asn_2
                                 # See if this raises an issue
-                                if not dragon_edge_name in dragon_edges:
+                                if not caida_edge_name in caida_edges:
                                     first_edge[4] = 5
                                 else:
-                                    dragon_edge = dragon_edges[dragon_edge_name]
-                                    first_edge_relationship = dragon_edge[2]
+                                    caida_edge = caida_edges[caida_edge_name]
+                                    first_edge_relationship = caida_edge[2]
                                     first_edge[4] = int(first_edge_relationship)
 
                             # The second one...
@@ -216,13 +216,13 @@ for dirname, dirnames, filenames in os.walk(dir_path):
                                 second_edge[2] += latency
                                 second_edge[3] += 1
                             if asn_1 != asn_2:
-                                dragon_edge_name = asn_2 + "-" + asn_1
+                                caida_edge_name = asn_2 + "-" + asn_1
                                 # See if this raises an issue
-                                if not dragon_edge_name in dragon_edges:
+                                if not caida_edge_name in caida_edges:
                                     second_edge[4] = 5
                                 else:
-                                    dragon_edge = dragon_edges[dragon_edge_name]
-                                    second_edge_relationship = dragon_edge[2]
+                                    caida_edge = caida_edges[caida_edge_name]
+                                    second_edge_relationship = caida_edge[2]
                                     second_edge[4] = int(second_edge_relationship)
 
 ######################################################################## STEP 3
