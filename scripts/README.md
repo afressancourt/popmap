@@ -18,8 +18,8 @@ This set of Python scripts has been developped in order to evaluate the Interclo
     * [PoP-IXP-Association-Geo.py](#pop-ixp-association-geopy)
     * [PoP-IXP-Association-Confirmed.py](#pop-ixp-association-confirmedpy)
     * [AS-Policy-Dict-Build.py](#as-policy-dict-buildpy)
-  * [The dragon-study script](#the-dragon-study-script)
-    * [Dragon-AS-Build.py](#dragon-as-buildpy)
+  * [The caida-study script](#the-caida-study-script)
+    * [Caida-AS-Build.py](#caida-as-buildpy)
     * [Graph-AS-Directed-Build-method2.py](#graph-as-directed-build-method2py)
     * [Graph-AS-Directed-Study.py](#graph-as-directed-studypy)
     * [iPlane-Graph-Build.py](#iplane-graph-buildpy)
@@ -41,7 +41,7 @@ In order to perform this evaluation, we use four datasets in a coordinated way:
 
   * **origin\_as\_mapping.txt**: This file contains the mapping between IP addresses sets and AS number that is used by iPlane to map the PoPs to the relevant AS.
 
-* **The DRAGON dataset**: This dataset has been presented in the paper _Distributed Route Aggregation on the Global Network_. It gives a view of the relationship between ASes and tags the links between them to determine whether they are provider-customer, customer-provider or peer-to-peer. This dataset consists in one file:
+* **The currated CAIDA dataset**: This dataset has been built according to the paper _Distributed Route Aggregation on the Global Network_. It gives a view of the relationship between ASes and tags the links between them to determine whether they are provider-customer, customer-provider or peer-to-peer. This dataset consists in one file:
   * **topology.201309.txt**: this file contains the declaration of the links between ASes as well as the relationship they have.
 
 * **PeeringDB**: We use this open database to retrieve information about the various IXPs in the Internet: their IP addresses range, the ASes that participate in those IXPs. Note that this script has been written to be used with the 1st version of PeeringDB. As PeeringDB v2 is now online, those scripts might need to be adapted. Please also note that if you don't care about working with IXPs, you may not need to use this dataset. The PeeringDB SQL dump has been used to produce several data files:
@@ -238,13 +238,13 @@ It produces **two dictionnaries**:
 * **as\_policy.pickle**, which gives the policy associated to a given AS
 * **policy\_ases.pickle**, which gives the ASes following a given policy.
 
-## The dragon-study script
+## The caida-study script
 
-This script, named *dragon-study*, executes the python scripts that we hav built in order to study the Dragon topology presented in the article _Distributed Route Aggregation on the Global Network_. This topology presents the link between ASes according to the nature of their link: customer-provider, provider-customer, peer-to-peer.
+This script, named *caida-study*, executes the python scripts that we hav built in order to study the currated CAIDA topology built after the article _Distributed Route Aggregation on the Global Network_. This topology presents the link between ASes according to the nature of their link: customer-provider, provider-customer, peer-to-peer.
 
-### Dragon-AS-Build.py
+### Caida-AS-Build.py
 
-This python script builds a dictionnary of the ASes that are present in the Dragon topology.
+This python script builds a dictionnary of the ASes that are present in the currated CAIDA topology.
 
 The script takes **one file** as data source:
 
@@ -252,11 +252,11 @@ The script takes **one file** as data source:
 
 It produces **one dictionnary**:
 
-* **dragon\_ases.pickle**, which contains the ASes that are present in the Dragon topology.
+* **caida\_ases.pickle**, which contains the ASes that are present in the currated CAIDA topology.
 
 ### Graph-AS-Directed-Build-method2.py
 
-This python script builds a directed graph from the Dragon topology and a dictionnary containing the edges and associated relationship property. The file is suffixed "-method2" because the first version of the script added edges in the graph one by one with iGraph's "add edge()" method, which takes a very long time. This version adds the edges alltogether using iGraph's "add edges()" method which is much quicker, then associates relationship properties to the edges one by one.
+This python script builds a directed graph from the currated CAIDA topology and a dictionnary containing the edges and associated relationship property. The file is suffixed "-method2" because the first version of the script added edges in the graph one by one with iGraph's "add edge()" method, which takes a very long time. This version adds the edges alltogether using iGraph's "add edges()" method which is much quicker, then associates relationship properties to the edges one by one.
 
 The script takes **one file** as data source:
 
@@ -264,7 +264,7 @@ The script takes **one file** as data source:
 
 It produces **one dictionnary**:
 
-* **dragon\_edges.pickle**, which contains the edges between ASes and associated relationship properties that are present in the Dragon topology.
+* **caida\_edges.pickle**, which contains the edges between ASes and associated relationship properties that are present in the currated CAIDA topology.
 
 It produces **one graph** stored as a pickle file:
 
@@ -277,16 +277,16 @@ This python script computes the reachability of interesting ASes with regards to
 This script loads **two dictionnaries**:
 
 * **ixp\_confirmed\_ases\_3.pickle**
-* **dragon\_ases.pickle**
+* **caida\_ases.pickle**
 
 It produces **two dictionnaries**:
 
 * **interesting\_ases.pickle** which contains the list of the interesting ASes.
-* **interesting\_ases\_reach.pickle** which contains the number of ASes in the Dragon topology that each AS can reach.
+* **interesting\_ases\_reach.pickle** which contains the number of ASes in the currated CAIDA topology that each AS can reach.
 
 ### iPlane-Graph-Build.py
 
-This python script parses the links of the iPlane topology and, for the PoPs belonging to an AS that is present in the Dragon topology, build an inter-PoP edge with associated relationship properties. When the two PoPs are in the same AS, the relationship property for the edge is set to "0". When the two PoPs are not in the same AS but the inter-AS link is not in the Dragon topology, the relationship property is set to "5".
+This python script parses the links of the iPlane topology and, for the PoPs belonging to an AS that is present in the currated CAIDA topology, build an inter-PoP edge with associated relationship properties. When the two PoPs are in the same AS, the relationship property for the edge is set to "0". When the two PoPs are not in the same AS but the inter-AS link is not in the currated CAIDA topology, the relationship property is set to "5".
 
 The script takes **one directory** as data source:
 
@@ -294,8 +294,8 @@ The script takes **one directory** as data source:
 
 It loads **two dictionnaries**:
 
-* **dragon\_ases.pickle**
-* **dragon\_edges.pickle**
+* **caida\_ases.pickle**
+* **caida\_edges.pickle**
 
 It produces **three dictionnaries**:
 
