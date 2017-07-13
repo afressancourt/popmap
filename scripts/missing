@@ -1,0 +1,7 @@
+# Script to work on missing links at IXP
+
+python ./missing_py/IXP-Missing-AS.py
+python ./missing_py/PoP-IXP-Association-Graph.py
+python ./missing_py/PoP-IXP-Association-Geo.py
+python ./missing_py/PoP-IXP-Association-Confirmed.py
+python ./missing_py/AS-Policy-Dict-Build.py

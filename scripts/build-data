@@ -1,0 +1,9 @@
+# Script to build the pickle objects we need for our analysis
+
+python ./build_data/clean-weekly-as-file.py
+python ./build_data/IP-IXP-Dict-Build.py
+python ./build_data/IXP-AS-Dict-Build.py
+python ./build_data/IP-PoP-Dict-Build.py
+python ./build_data/AS-PoP-Dict-Build.py
+python ./build_data/PoP-relatedAS-PoPs-Dict-Build.py
+

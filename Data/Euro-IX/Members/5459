@@ -1,0 +1,645 @@
+42  PCH/Woodynet DNS Anycast    true
+174 Cogent  true
+209 QWEST   true
+251 Kaia Global Networks Ltd.   true
+286 KPN international   true
+702 Verizon Business    true
+714 Apple Benelux B.V.  true
+786 JANET(UK)   true
+855 Bell Aliant US  false
+1103    SURFnet false
+1239    SPRINT  false
+1248    Nokia   true
+1257    TELE2 Sverige AB    true
+1267    Wind    true
+1273    CABLE & WIRELESS    true
+1290    Telstra Europe Limited  true
+1547    Tirastel GmbH   false
+1680    013 Netvision Ltd   true
+2110    BT Ireland  true
+2116    Ventelo Bedrift AS  true
+2119    Svenska Bredbandsbolaget AB false
+2134    Produban    false
+2484    AFNIC   true
+2497    Internet Initiative Japan Inc.  true
+2529    Thus PLC    true
+2603    NORDUnet A/S    true
+2611    BELNET  true
+2635    Automattic, Inc.    true
+2686    AT&T EMEA   true
+2818    BBC true
+2828    XO COMMUNICATIONS, INC. true
+2856    British Telecommunications plc  true
+2860    NOS false
+2906    Netflix true
+2914    NTT Communications Corporation (ntt.net)    true
+3209    Vodafone / Arcor    true
+3213    Bogons  true
+3216    Golden Telecom Limited  true
+3223    Voxility    true
+3225    Gulfnet Communications Co   true
+3257    Tiscali International Network BV    true
+3292    TDC true
+3303    Swisscom IP-Plus Internet Services  true
+3320    Deutsche Telekom, (T-Online)    true
+3356    Level3  true
+3491    PCCW Global true
+3549    GLOBAL CROSSING LATIN AMERICA   true
+3561    SAVVIS  true
+3741    Internet Solutions  true
+3856    Packet Clearing House   true
+4004    Orange Business false
+4134    China Telecom   false
+4436    nLayer  false
+4589    Easynet true
+4637    REACH (Telstra & PCCW)  true
+4651    CAT TELECOM PLC true
+4739    Internode Pty Ltd   true
+4766    KT Corperation  false
+4788    TELEKOM MALAYSIA BERHAD true
+4800    PT. Aplikanusa Lintasarta   true
+5089    ntl:Telewest    false
+5400    British Telecom true
+5410    BOUYGUES TELECOM (T-ONLINE FRANCE)  true
+5413    GX Networks true
+5466    Eircom  true
+5500    Pinnacle Cloud Solutions    true
+5503    RM Education Plc    false
+5511    France Telecom/Opentransit  true
+5552    Redstone Communications Ltd true
+5564    Brightsolid formerly Scotland Online Ltd    false
+5580    Atrato IP Networks  true
+5588    Tmobile CZ  true
+5607    BSKYB   true
+5631    Vital International Ltd.    false
+5713    Telkom SA Ltd   true
+6067    Onyx Internet   true
+6327    Shaw Business Solutions true
+6412    Zajil   false
+6447    RouteViews.org  true
+6453    TELEGLOBE   false
+6461    AboveNet, Inc.  true
+6619    Samsung Networks    false
+6643    Jive Communications, Inc    false
+6648    BTI America fka I3G Networks    false
+6661    P&T Luxembourg  true
+6663    Türk Telekom International  true
+6667    Saunalahti Group Oyj / EUnet Finland    true
+6677    Siminn  true
+6717    Internet Central Limited    false
+6730    Sunrise true
+6762    TELECOM ITALIA SPARKLE (SEABONE)    true
+6774    BELGACOM    true
+6805    Telefonica  false
+6830    Liberty Global  false
+6871    PlusNet true
+6894    KDDI Europe Ltd true
+6908    DATAHOP true
+6939    Hurricane Electric  true
+7160    Oracle  false
+7342    VeriSign Inc    true
+7473    Singapore Telecom   true
+7642    Dhiraagu    true
+7713    PT Telekomunikasi Indonesia true
+8001    Net Access NAC  false
+8075    Microsoft   true
+8220    Colt Telecom    true
+8282    FidoNet Registration Services Ltd   true
+8301    Gibtelecom  false
+8309    Sipartech   true
+8359    Comstar Direct CJSC true
+8400    Telekom Srbija  true
+8403    Spotify AB  false
+8419    Hotchilli Internet Solutions    true
+8422    NetCologne  true
+8426    Claranet    true
+8447    Telekom Austria TA AG   true
+8452    TE Data true
+8468    ENTANET INTERNATIONAL LTD   true
+8473    Bahnhof true
+8530    Excell Business Systems Ltd true
+8544    PrimeTel PLC    true
+8551    Bezeq International Ltd.    true
+8553    Avensys Networks Ltd    false
+8560    1&1 INTERNET    true
+8607    Timico Ltd. true
+8613    Phoenix IT Group PLC    true
+8657    PT Communications   true
+8674    Netnod Internet Exchange    true
+8681    Jersey Telecom  true
+8683    Nominet false
+8708    Romania Data Systems    true
+8732    COMCOR  true
+8781    Qatar Telecom   true
+8789    Novosco Limited false
+8851    Edge Telecom Ltd t/a Inweb Networks false
+8866    VIVACOM true
+8881    Versatel GmbH   true
+8897    KCOM SPN (Mistral/Eclipse)  true
+8902    Internet for Business   true
+8912    NetBenefit managed hosting  false
+8928    Interoute   true
+8943    Jump Networks   true
+8950    Logicalis UK Limited    true
+8966    EMIRATES TELECOMMUNICATIONS CORPORATION (ETISALAT)  false
+9002    RETN    false
+9009    M247 Europe true
+9031    EDPnet  false
+9036    NEURONNEXION    false
+9044    BSE Software    true
+9050    Romtelecom  true
+9116    012 smile.communications ltd.   true
+9121    Turk Telekom    true
+9140    Hyperneph Ltd   false
+9145    EWETel  false
+9153    Burstfire networks  true
+9193    NaviSite, Inc.  false
+9269    Hong Kong Broadband Network Ltd false
+9304    Hutchison Global Communications Limited true
+9318    SK Broadband    false
+9498    Bharti Airtel Ltd.  true
+9505    TWGate  true
+9583    Sify Technologies Limited   false
+9680    Chunghwa    true
+10026   PacNet Services (A) P/L (Asia NetCom)   true
+10310   YAHOO!  true
+10474   MWEB    true
+11666   Nexicom true
+11845   Vox (DataPro)   true
+12008   NeuStar true
+12041   Afilias true
+12290   Exonetric   true
+12322   Free.fr true
+12337   noris network AG    true
+12350   VTX true
+12389   OJSC Rostelecom true
+12390   KCOM Group plc  false
+12399   Scanplus GmbH   true
+12496   Idnet   true
+12519   FastNet International   true
+12536   Allegro Networks Limited    false
+12552   IP-Only Telecommunication Networks Finland Ab   true
+12576   Everything Everywhere Limited   true
+12578   Lattelecom  true
+12654   RIPE-RIS    false
+12703   Lumison true
+12713   OTE GLOBAL SOLUTIONS S.A.   true
+12715   Jazztel false
+12779   ITGATE  true
+12850   Enter   false
+12859   Business Internet Trends    true
+12874   Fastweb false
+12956   TELEFONICA DATA true
+12989   Highwinds   true
+12993   DEAC    true
+13005   C2 Internet Ltd true
+13009   Intechnology    true
+13030   Init7   false
+13037   Zen Internet    true
+13122   Manx Telecom Ltd    false
+13193   NERIM   true
+13213   UK2Net  true
+13237   Lambdanet Communications GmbH   true
+13238   Yandex. Ukraine true
+13285   Opal Telecom Limited/TalkTalk   true
+13335   CloudFlare Inc. false
+13414   Twitter, Inc.   false
+13445   WebEx   true
+13768   Peer1   true
+14413   LinkedIn    false
+14492   DataPipe    true
+14537   Continent8 Technologies true
+14558   FastReturn, Inc.    true
+15133   EdgeCast Networks   true
+15169   Google  false
+15395   Rackspace Asia Limited  true
+15399   Wananchi    false
+15412   FLAG TELECOM NETWORKS USA LTD.  true
+15533   SunGard true
+15547   netplus.ch SA   false
+15557   Neuf SFR    true
+15594   [netzquadrat] GmbH  false
+15692   Razorblue Ltd   true
+15695   Expereo true
+15766   Domicilium  true
+15773   Inclarity Communications    false
+15802   Emirates Integrated Telecommunication   false
+15830   TELECITY GROUP  true
+15839   Cobweb Solutions Ltd    false
+15988   Akhter Computers Ltd.   false
+15992   Visa Europe true
+16082   Spitfire Network Services Ltd   true
+16150   Port 80 true
+16164   Sohonet true
+16174   Intuitiv Ltd    true
+16211   STELLA TELECOM  false
+16265   Fiberring / Leaseweb    true
+16276   OVH true
+16303   IPswiTch Networks Ltd   false
+16347   RMI/ADISTA  true
+16353   Merula  true
+16509   Amazon  true
+16637   MTN Network Solutions   true
+16839   Service-now.com true
+17088   Currenex Ltd    false
+17451   Biznet Networks true
+17557   PAKISTAN TELECOMMUNICATION COMPANY LIMITED  false
+17558   Orange Business Services    false
+17660   Bhutan Telecom Ltd  true
+18106   VIEWQWEST PRIVATE LIMITED   true
+18705   Research In Motion Netherlands B.V. true
+19151   WV FIBER D/B/A Ibis7    true
+19551   Incapsula Inc.  true
+19679   Dropbox true
+19919   Virginia Skywire    false
+20473   Choopa  true
+20485   JSC TransTeleCom Company    true
+20562   Open Peering    true
+20679   HighSpeed Office Limited    false
+20681   Saxo Bank A/S   true
+20712   Andrews & Arnold Ltd    true
+20738   Webfusion   true
+20764   Rascom CJSC true
+20773   Host Europe GmbH    true
+20799   Datanet co uk Ltd.  true
+20860   Iomart Hosting Limited  true
+20915   100 Percent true
+20940   Akamai Technologies true
+20952   Venus   true
+20965   DANTE Ltd / GEANT   true
+21099   Game Digital Ltd    false
+21267   Wavenet Limited false
+21345   MessageLabs Ltd true
+21371   EQIX    true
+21396   NetConnex   true
+22071   TradingScreen INC   true
+22355   Frogfoot Networks   false
+22822   Limelight Networks Inc. true
+23028   TEAM CYMRU  false
+23148   TERRENAP    true
+23576   NHN Business Plattform  false
+24218   GLOBAL TRANSIT SINGAPORE PTE LTD    true
+24482   SG.GS   true
+24594   Frontier Systems    true
+24724   ATM S.A.    true
+24867   Adapt Services Limited  true
+24916   Orbital Net Limited false
+24931   Dedipower Managed Hosting Ltd   false
+24961   fibre one networks GmbH true
+25061   Associated Networks Ltd true
+25091   IP-Max  true
+25152   K-root DNS (RIPE-NCC)   true
+25160   Vorboss Limited true
+25178   Keycom PLC  true
+25180   Exponential-e Ltd   true
+25310   Cable & Wireless Worldwide  false
+25369   KillerCreation Networks Ltd true
+25376   NetNorth    true
+25460   The Networking People (NorthWest) Limited   true
+25562   Sony Computer Entertainment Europe Ltd  false
+25577   C4L true
+25605   Cisco International Limited true
+25818   CMC Networks    true
+26282   MessageLabs Inc false
+26496   GoDaddy.com true
+27822   Emerging Markets Communications, Inc.   false
+28717   Zen Systems A/S true
+28757   Scotnet.co.uk Ltd   false
+28816   Pinnacle Cloud Solutions    false
+28846   ITV PLC false
+28876   suec // dacor GmbH  true
+28929   ASDASD  true
+29006   POBOX Ltd.  true
+29009   UK Broadband Ltd    true
+29017   Gyron Internet Ltd  true
+29049   Delta Telecom LTD   true
+29075   IELO / LOST-OASIS SARL  true
+29129   Vispa Internet Limited  false
+29169   GANDI   true
+29208   Dial Telecom    true
+29297   Link Connect Services Ltd   true
+29314   Vectra S.A. true
+29328   Everything Everywhere Limited   false
+29452   Secura Networks Limited true
+29527   Othello Technology Systems Ltd  true
+29550   Simply Transit Ltd. true
+29606   Borwood Limited false
+29611   Elite Limited   true
+29636   Catalyst2 Services Ltd  true
+29644   Airspeed Telecom    true
+29668   Qube Managed Services Limited   false
+29676   gradwell dot com Limited    true
+29697   Commercial Network Services true
+29791   Voxel Dot Net, Inc. true
+29834   Ustream false
+30071   Towardex Technologies, Inc - OCCAID Project true
+30081   CacheFly    false
+30094   GigaNews, Inc.  false
+30740   Exa Networks Limited    true
+30781   Jaguar Networks true
+30818   Skyrr   false
+30827   Xtraordinary Networks Ltd.  true
+30844   Liquid Telecom  true
+30914   Ioko    true
+30933   Commercial Co-location Limited  true
+31042   Serbia Broadband    true
+31059   Avelacom Ltd    true
+31084   Magrathea   true
+31122   Digiweb Limited true
+31133   OJSC MegaFon Network    true
+31216   BSO Communication SAS   true
+31270   Fusion Media Networks Ltd   true
+31458   Smart Telecom Holdings Ltd. false
+31459   BBC R+D Multicast * false
+31474   MTV false
+31500   Global Network Managment Ltd    true
+31595   Redraw Internet / Datacentres Ltd   true
+31638   Lepida  true
+31640   City Lifeline Ltd   false
+31641   Bytel   false
+31655   Gamma Telecom Ltd.  false
+31672   Control Circle  true
+31708   CoreIX  true
+31715   Netrino UK Ltd  true
+31727   Node4 Ltd   true
+32308   Voicenet Solutions Ltd  false
+32425   Pixel Factory   false
+32590   Valve Corporation   true
+32787   PROLEXIC TECHNOLOGIES   true
+32934   Facebook    true
+33081   Internet Systems Consortium, Inc.   true
+33182   Hostdime.com Inc    true
+33353   Gaikai, Inc true
+33763   Paratus Telecommunications Ltd  true
+33854   Nuco Technologies Ltd   true
+33891   Core-Backbone   true
+33920   AQ Networks Ltd (AQL)   true
+33941   Gconnect    false
+34066   Telappliant Ltd false
+34119   Wildcard Networks   true
+34177   CELESTE false
+34224   Neterra true
+34245   Magnet Networks true
+34270   Internet Connections    true
+34288   Kantonsschule Zug (CH)  true
+34309   Link11 GmbH (DE)    true
+34407   WaveCrest UK Ltd    false
+34442   Xifos Limited   true
+34555   CCS Leeds   false
+34655   Doclerweb   true
+34695   E4A true
+34746   Eaton Kaye Ltd  false
+34790   Waveworks   false
+34803   Broadband Gibraltar Ltd true
+34934   UKFast.net Limited  true
+34984   SuperOnline true
+35028   Multiplay   true
+35180   Hosted IP Communications (Europe) Limited   false
+35228   Be Unlimited    false
+35399   IT Inside Out (NetworkWizardry) false
+35425   Bytemark Computer Consulting Ltd    true
+35432   WAVESPEED   true
+35456   Fubra Limited   false
+35551   TG Support Ltd  true
+35575   Vaioni  true
+35662   Redstation  true
+35788   Blackspider false
+35799   Known Future    true
+35819   ETIHAD ETISALAT COMPANY true
+35826   Netservers Limited  true
+35834   CCP Games   true
+35916   Multacom    true
+36236   Host Virtual Inc    true
+36351   SOFTLAYER TECHNOLOGIES  true
+36408   CDNetworks  false
+36692   OpenDNS true
+36916   XDSL Broadband  true
+36944   TENET   true
+37009   MTC false
+37011   Startel SA  true
+37054   TELECOM MALAGASY    false
+37090   Isocel Telecom  false
+37100   SEACOM  true
+37105   Neology true
+37122   Smile Communications (pty) Ltd  true
+37179   Africa Independent Network Exchange true
+37271   Workonline Communications   true
+37273   BCS Group   false
+37282   Main One Cable Company  true
+37468   Angola Cables   false
+37662   WIOCC   true
+37678   Botswana Fibre Networks false
+38082   True International Gateway Co., Ltd true
+38182   EXTREME BROADBAND SDN BHD   true
+39122   Blacknight Internet Solutions   true
+39138   rrbone UG   true
+39179   Modrus Ltd  false
+39202   GCAP Media PLC  true
+39326   Goscomb Technologies    true
+39356   Avanti Communications   false
+39386   Saudi Telecom Company   false
+39451   Melbourne Network Solutions Ltd true
+39522   Converged Communication Solutions   false
+39537   Hub Network Services Limited    false
+39545   Fluidata Ltd    true
+39605   Iguane Solutions    true
+39792   Anders Business Group Ltd.  true
+39905   SmartFocus  false
+39915   Premiere Global Services    false
+40015   Move Clicks, L.L.C. true
+40627   RingCentral CH GmbH false
+41095   IP TRIPLE PLAY LTD  false
+41230   Ask4 Limited    false
+41357   34SP.com Ltd    true
+41393   Nasstar Limited true
+41552   eBay Classifieds Group  true
+41678   Tibus   true
+41690   Dailymotion false
+41695   Vostron Limited true
+41769   Voicenet Solutions Ltd  false
+41811   Convergence Group Networks Ltd  true
+41847   Peer Point Internet Ltd true
+42004   VoIP Unlimited  true
+42010   IT Professional Services    true
+42152   Transit Alliance    true
+42344   Concept Coders  true
+42353   Simwood eSMS Limited    true
+42369   LBI true
+42455   Wi-Manx true
+42525   Global Connect  true
+42579   Comtec Enterprises Ltd. (Sargasso Networks) true
+42689   Move Networks   true
+42708   Portlane AB true
+42831   UK Servers  true
+42973   Manchester Metronet Ltd true
+43013   York Data Services Limited  false
+43198   servelogic  false
+43219   Every City Ltd  true
+43256   Global Broadband Solutions  false
+43323   Vision IPTV false
+43338   Rational Services Limited (PokerStars)  false
+43350   NForce Entertainment    true
+43519   Nominet UK  false
+43531   IX Reach    true
+43532   Alpari (UK) Limited false
+43545   Teledata    false
+43599   North West Electronics  true
+43996   Booking.com Limited true
+44066   First Colo GmbH true
+44160   Internet One    true
+44356   Epsilon Telecommunications Ltd. false
+44371   Paypoint Plc    false
+44444   Websense Hosted R&D Ltd. (UK)   true
+44611   Talk Internet Ltd   false
+44646   Gamesys Ltd false
+44654   MEDIA NETWORK SERVICES  true
+44684   Mythic Beasts   true
+44788   Criteo  true
+44965   Voicenet Solutions Ltd  false
+44981   Oosha Limited   true
+45014   Nuco Technologies Ltd   true
+45177   Vibe Communications LTD true
+45474   Nexus Guard Limited false
+45758   TripleT Internet Internet service provider Bangkok  true
+46489   Justin.TV   false
+46784   IP Transit Inc. false
+46786   Root    true
+47264   Ping Networks Ltd   false
+47474   Virtual1    true
+47480   Blue Tiger Solutions    false
+47541   VKontakte Ltd   true
+47622   Datatech UK Ltd true
+47762   Magnetic North  false
+47764   LLC DataCenter M100 true
+47872   Sofia Connect   false
+47998   Oscar Music & Media Limited true
+47999   Transversal Corporation Ltd true
+48294   Spectrum Internet Ltd   true
+48610   Lyndos  true
+48961   Warwicknet Ltd  true
+48973   Netplan Internet Solutions Limited  false
+49158   Wifinity    false
+49249   Nominum true
+49375   Trunk Networks  true
+49415   VTSL Limited    false
+49544   Interactive 3D B.V. true
+49572   Fujitsu Services    false
+50056   Advantage Interactive Ltd   true
+50245   Serverel    true
+50292   StratoGen Internet  true
+50300   Custodian DC Ltd    true
+50311   GLOMAN SA   false
+50316   Netglobal   true
+50324   Hofnetz & IT Services GmbH  true
+50468   Citrus Telecom  false
+50618   LIAZO   true
+50746   Britannic Technologies  false
+50914   Surf Telecoms   false
+50957   Memset Ltd  false
+51048   Next Connex true
+51055   Bridge Fibre Ltd    true
+51159   Think Systems UK Ltd    false
+51205   Omnifone    false
+51263   County Broadband    true
+51406   2Connect    true
+51409   Sectorsix   false
+51468   One.Com true
+51561   ICUK Computing Services Ltd false
+51782   BUZCOM  true
+51823   Microtalk UK Ltd    false
+51852   Private Layer INC   true
+51918   Cerberus Networks Ltd   true
+51945   ConnetU true
+52320   GlobeNet    false
+55195   CIRA DNS    true
+56329   Gigaclear   true
+56460   O2Wifi  false
+56478   Hyperoptic Limited  true
+56484   Fast Iraq   false
+56595   Fluency Communications Ltd  true
+56730   Wirehive    true
+57023   OranLink S.L    true
+57099   Boundless Communications Ltd    false
+57119   Naitways    true
+57156   ANS Group PLC   false
+57228   Imtech ICT Limited  true
+57315   Pure Blue Global Networks Ltd   false
+57356   Highland Network Limited T/A HighNet    false
+57463   NetIX Internet Exchange Point   true
+57731   DiVinetworks    false
+58273   (B4RN) Broadband for the Rural North    true
+58453   China Mobile    true
+59395   efar    true
+59410   Skyweb Limited  true
+59455   Clearstream Group   true
+59605   Zain Group  true
+60012   GDS Velocity LTD T/A Velocity Data Centres  false
+60157   Antheus Telecom Ltd true
+60171   WAPOP Africa Interconnect Exchange SLU  false
+60241   High-Speed Universal Broadband Service C.I.C.   true
+60339   Three UK    true
+60610   Everest Computing Ltd   true
+60666   Atrato IP Networks  true
+60787   Garry Beale & Sue Evans T/A AwellConnected.com  false
+61081   Defaultroute Limited    false
+61124   Marston's Telecoms Limited  false
+61215   Internet Initiative Japan Inc   true
+61231   SSE Telecoms    true
+61337   Electronic Communities  true
+62044   Zscaler, Inc.   false
+62212   DataCentred Ltd true
+62217   Vooservers Limited  true
+62244   Watch Tower Bible & Tract Society of Britain    true
+62267   Net365  false
+64597   Araneo-rnz  true
+132410  Reliance Jio Infocomm UK Limited    true
+132591  Tencent true
+196881  Liberty-izone Ltd   false
+197000  Ripe NCC    true
+197426  Bitcanal    true
+197440  Registro .IT    false
+197560  VDIware false
+197669  Synety  false
+197981  InterCloud  true
+198047  UK Webhosting Ltd   false
+198554  DXI Limited false
+198719  Intelliworkspace Ltd    false
+198736  Stream Networks Ltd false
+198831  GPW + Co Ltd    false
+199121  FlexOptix GmbH  true
+199188  PrimeXM Prime Exchange Markets AG   false
+199204  MacAce  false
+199335  Talk Straight Group Ltd false
+199516  Packnet Limited false
+199659  Suretec Systems Ltd. T/A SureVoIP   true
+199670  DNS Belgium vzw true
+199706  Block Solutions Limited false
+200052  Feral Hosting   false
+200638  S&P Building Management Limited true
+200748  Digital Profile Ltd.    true
+200856  Object Matrix Limited   true
+201066  Simply Managed Ltd  false
+201189  Bluewave Internet Ltd   true
+201207  Telecoms Facilities Ltd true
+201216  Method4 Ltd false
+201217  On Screen Productions Ltd   true
+201219  Films At 59 Ltd true
+201255  Chapter Cardiff Ltd false
+201261  Watershed Arts Trust    true
+201266  At Bristol Limited  true
+201278  Digital Inclusion   false
+201299  Principality Doument Solutions  false
+201300  DVS Soft Ltd    false
+201317  Excellence IT (UK) LTD  false
+201319  Siarad Network Limited  false
+201320  Meibion Maesycastell Limited T/As Morgan & Morgan   false
+201353  Net Support UK Ltd  true
+201354  Communic8 Ltd   true
+201357  CSG Computer Services Ltd   false
+201363  Astrix Integrated Systems Ltd   false
+201445  Deeplake Wales Limited  false
+201506  Incito Ltd  true
+201798  AB Internet Ltd false
+202109  DigitalOcean    true
+202112  Ziron   true
+202119  MediaSift Limited   true
